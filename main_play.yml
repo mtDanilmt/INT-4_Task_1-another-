@@ -1,0 +1,9 @@
+---
+- hosts: db
+  become: yes
+  roles:
+    - base_packages
+    - install_postgres
+    - firewall
+    - fail2ban
+    - auto_updates

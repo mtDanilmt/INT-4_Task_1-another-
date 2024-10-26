@@ -1,0 +1,14 @@
+---
+- name: Install base packages
+  apt:
+    name:
+      - vim
+      - git
+      - curl
+      - wget
+      - htop
+      - net-tools
+      - python3
+    state: present
+    update_cache: yes
+
