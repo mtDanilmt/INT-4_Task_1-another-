@@ -64,7 +64,7 @@ sudo systemctl start ssh
 # Реализуемый функционал playbook:
 
 1. Автообновление
-2. Установка базовых пакетов
+2. Установка базовых пакетов:
    
    2.1. vim
    
@@ -80,6 +80,8 @@ sudo systemctl start ssh
    
    2.7. python3
 
-4. 
+3. Установка Fail2ban
+4. Установка и настройка firewall
+5. Установка postgresql-16 
 
 
