@@ -65,13 +65,21 @@ sudo systemctl start ssh
 
 1. Автообновление
 2. Установка базовых пакетов
+   
    2.1. vim
+   
    2.2. git
+   
    2.3. curl
+   
    2.4. wget
+   
    2.5. htop
+   
    2.6. net-tools
+   
    2.7. python3
-3. 
+
+4. 
 
 
