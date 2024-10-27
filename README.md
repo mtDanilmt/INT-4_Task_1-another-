@@ -66,7 +66,7 @@ sudo systemctl start ssh
 1. Автообновление
 <ol>
   <li>Установка базовых пакетов
-    <ol type="2">
+    <ol type="1">
       <li>1.1 vim</li>
       <li>1.2 git</li>
       <li>1.3 wget</li>
