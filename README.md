@@ -2,7 +2,7 @@
 Этот репозиторий для первого задания, настройки с помощью ролей
 
 
-Всем машимам стоит установить статический ip адрес. 
+Всем машинам стоит установить статический IP-адрес. 
 
 ## Окружение
 
@@ -16,6 +16,7 @@
 Установим python3
 
 ```
+sudo apt update
 sudo apt-get install python3
 sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 2
 ```
@@ -39,7 +40,7 @@ sudo apt-get install sshpass
 ```
 ### Что изменить:
 
-Поменять файл `inventory` согласно своим данным.
+Поменять файл `inventory` согласно своим данным(IP-адреса и пользователей).
 
 
 ## Команда для запуска playbook:
