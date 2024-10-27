@@ -37,6 +37,10 @@ export PATH=$PATH:/home/user/.local/bin
 ```
 sudo apt-get install sshpass
 ```
+### Что изменить:
+
+Поменять файл `inventory` согласно своим данным.
+
 
 ## Команда для запуска playbook:
 
