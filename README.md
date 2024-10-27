@@ -41,7 +41,7 @@ sudo apt-get install sshpass
 ## Команда для запуска playbook:
 
 ```bash
-ansible-playbook playbook.yml
+ansible-playbook main_play.yml
 ```
 
 ## Необходимые настройки Debian машин для запуска Ansible:
@@ -62,5 +62,19 @@ sudo systemctl start ssh
 ```
 
 # Реализуемый функционал playbook:
+
+1. Автообновление
+<ol>
+  <li>Установка базовых пакетов
+    <ol type="2">
+      <li>1.1 vim</li>
+      <li>1.2 git</li>
+      <li>1.3 wget</li>
+      <li>1.4 htop</li>
+      <li>1.5 net-tools</li>
+      <li>1.5 python3</li>
+    </ol>
+  </li>
+</ol>
 
 
