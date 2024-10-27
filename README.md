@@ -64,17 +64,14 @@ sudo systemctl start ssh
 # Реализуемый функционал playbook:
 
 1. Автообновление
-<ol>
-  <li>Установка базовых пакетов
-    <ol type="1">
-      <li>1.1 vim</li>
-      <li>1.2 git</li>
-      <li>1.3 wget</li>
-      <li>1.4 htop</li>
-      <li>1.5 net-tools</li>
-      <li>1.5 python3</li>
-    </ol>
-  </li>
-</ol>
+2. Установка базовых пакетов
+   2.1. vim
+   2.2. git
+   2.3. curl
+   2.4. wget
+   2.5. htop
+   2.6. net-tools
+   2.7. python3
+3. 
 
 
